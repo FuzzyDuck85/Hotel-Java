@@ -2,12 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd169bde-7fd5-4abe-ae7a-99fc7e4c4e11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Bedroom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Bedroom.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/DiningRoom.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BedroomTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BedroomTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Hotel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Hotel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/HotelTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/HotelTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,10 +96,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.HotelTest" />
+        <item itemvalue="JUnit.All in Hotel_Lab" />
+        <item itemvalue="JUnit.BedroomTest" />
         <item itemvalue="JUnit.DiningRoomTest" />
         <item itemvalue="JUnit.BookingTest" />
-        <item itemvalue="JUnit.BedroomTest" />
-        <item itemvalue="JUnit.All in Hotel_Lab" />
       </list>
     </recent_temporary>
   </component>
@@ -123,21 +125,25 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="298" y="64" key="CommitChangelistDialog2/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594815772504" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1594816156946">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1594819412324">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156946" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1594816156945">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594819412324" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1594819412323">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156945" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1594816156945">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594819412323" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1594819412323">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156945" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1594816156946">
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594819412323" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1594819412323">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156946" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594819412323" />
+    <state x="34" y="-11" width="837" height="825" key="find.popup" timestamp="1594818112872">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="34" y="-11" width="837" height="825" key="find.popup/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594818112872" />
   </component>
 </project>

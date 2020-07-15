@@ -31,5 +31,9 @@ public class DiningRoom {
             this.guests.remove(guest);
         }
     }
+
+    public void removeAll(){
+        this.guests.clear();
+    }
 }
 

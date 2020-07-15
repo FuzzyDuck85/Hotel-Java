@@ -31,13 +31,19 @@ public class Bedroom {
         return this.capacity > this.guestCount();
     }
 
-    public boolean add(Guest guest){
-        if (this.checkCapacity()) {
-            this.guests.add(guest);
-            return true;
-        }else{
-            return false;
+    public boolean add(ArrayList<Guest> guests){
+        int numberOfGuests = guests.size();
+        if (this.checkAvailability()) {
+            if(numberOfGuests <= this.capacity) {
+                this.guests = guests;
+                return true;
+            }
         }
+        return false;
+    }
+
+    public boolean checkAvailability(){
+        return this.guestCount() == 0;
     }
 
     public boolean checkGuest(Guest guest){

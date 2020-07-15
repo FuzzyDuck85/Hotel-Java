@@ -1,5 +1,6 @@
 import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.Map;
 
 public class Hotel {
     private String name;
@@ -26,8 +27,8 @@ public class Hotel {
         this.conferenceRooms.add(conferenceRoom);
     }
 
-    public boolean checkInToBedroom(Guest guest, Bedroom bedroom){
-       return bedroom.add(guest);
+    public boolean checkInToBedroom(ArrayList<Guest> guests, Bedroom bedroom){
+       return bedroom.add(guests);
     }
 
     public void checkOutOfBedroom(Guest guest, Bedroom bedroom){
@@ -69,5 +70,27 @@ public class Hotel {
 
     public int countDiningRooms(){
         return this.diningRooms.size();
+    }
+
+    public ArrayList<Bedroom> getEmptybedrooms(){
+        ArrayList<Bedroom> emptyRooms = new ArrayList<Bedroom>();
+        for(int i = 0; i < this.countBedrooms(); i++){
+            if(this.bedrooms.get(i).guestCount() == 0) {
+                emptyRooms.add(this.bedrooms.get(i));
+            }
+        }
+        return emptyRooms;
+    }
+
+    public void fireAlarm(){
+        for (int i = 0; i < this.countBedrooms(); i++){
+            this.bedrooms.get(i).checkOutAll();
+        }
+        for (int i =0; i < this.countConferenceRooms(); i++){
+            this.conferenceRooms.get(i).checkOutAll();
+        }
+        for(Map.Entry<String, DiningRoom> entry : this.diningRooms.entrySet()){
+            entry.getValue().removeAll();
+        }
     }
 }
