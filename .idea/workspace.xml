@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd169bde-7fd5-4abe-ae7a-99fc7e4c4e11" name="Default Changelist" comment="" />
+    <list default="true" id="cd169bde-7fd5-4abe-ae7a-99fc7e4c4e11" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/DiningRoom.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/DiningRoomTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotelTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotelTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +21,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
       <MavenImportingSettings>
@@ -23,6 +33,9 @@
     </option>
   </component>
   <component name="ProjectId" id="1eiXCyDuIDGSXQciActcjUIlHvN" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -30,9 +43,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
-  <component name="RunManager" selected="JUnit.BookingTest">
+  <component name="RunManager" selected="JUnit.HotelTest">
     <configuration name="All in Hotel_Lab" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hotel_Lab" />
       <option name="PACKAGE_NAME" value="" />
@@ -59,10 +73,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConferenceRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DiningRoomTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Hotel_Lab" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ConferenceRoomTest" />
+      <option name="MAIN_CLASS_NAME" value="DiningRoomTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -79,11 +93,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.HotelTest" />
+        <item itemvalue="JUnit.DiningRoomTest" />
         <item itemvalue="JUnit.BookingTest" />
         <item itemvalue="JUnit.BedroomTest" />
-        <item itemvalue="JUnit.HotelTest" />
         <item itemvalue="JUnit.All in Hotel_Lab" />
-        <item itemvalue="JUnit.ConferenceRoomTest" />
       </list>
     </recent_temporary>
   </component>
@@ -101,25 +115,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="788" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1594810804805">
+    <state x="788" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1594816405913">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="788" y="194" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594810804805" />
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1594811162143">
+    <state x="788" y="194" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816405913" />
+    <state x="298" y="64" key="CommitChangelistDialog2" timestamp="1594815772504">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594811162143" />
-    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1594811162142">
+    <state x="298" y="64" key="CommitChangelistDialog2/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594815772504" />
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom" timestamp="1594816156946">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594811162142" />
-    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1594811162141">
+    <state width="1398" height="230" key="GridCell.Tab.0.bottom/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156946" />
+    <state width="1398" height="230" key="GridCell.Tab.0.center" timestamp="1594816156945">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594811162141" />
-    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1594811162142">
+    <state width="1398" height="230" key="GridCell.Tab.0.center/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156945" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left" timestamp="1594816156945">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594811162142" />
+    <state width="1398" height="230" key="GridCell.Tab.0.left/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156945" />
+    <state width="1398" height="230" key="GridCell.Tab.0.right" timestamp="1594816156946">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1398" height="230" key="GridCell.Tab.0.right/0.23.1440.877/1440.123.1280.777@0.23.1440.877" timestamp="1594816156946" />
   </component>
 </project>

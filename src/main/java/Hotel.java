@@ -1,14 +1,17 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class Hotel {
     private String name;
     private ArrayList<Bedroom> bedrooms;
     private ArrayList<ConferenceRoom> conferenceRooms;
+    private HashMap<String, DiningRoom> diningRooms;
 
     public Hotel(String name){
         this.name = name;
         this.bedrooms = new ArrayList<Bedroom>();
         this.conferenceRooms = new ArrayList<ConferenceRoom>();
+        this.diningRooms = new HashMap<String, DiningRoom>();
     }
 
     public String getName() {
@@ -58,5 +61,13 @@ public class Hotel {
     public Booking bookRoom(Bedroom bedroom, int nightsBooked){
        Booking booking = new Booking(bedroom, nightsBooked);
        return booking;
+    }
+
+    public void addDiningRoom(DiningRoom diningRoom){
+        this.diningRooms.put(diningRoom.getName(), diningRoom);
+    }
+
+    public int countDiningRooms(){
+        return this.diningRooms.size();
     }
 }
